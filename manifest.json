@@ -1,0 +1,12 @@
+{
+  "background_color": "#ffffff",
+  "dir": "ltr",
+  "display": "standalone",
+  "name": "jagatsagar7-ui.github",
+  "orientation": "any",
+  "scope": "/",
+  "short_name": "jagatsagar7-ui.github",
+  "start_url": "/",
+  "theme_color": "#ffffff",
+  "id": "Jagat"
+}
