@@ -2,11 +2,11 @@
   "background_color": "#ffffff",
   "dir": "ltr",
   "display": "standalone",
-  "name": "jagatsagar7-ui.github",
+  "name": "My Billing App",
   "orientation": "any",
   "scope": "/",
-  "short_name": "jagatsagar7-ui.github",
-  "start_url": "/",
+  "short_name": "BillingApp",
+  "start_url": "/My-billing-app/",
   "theme_color": "#ffffff",
   "id": "Jagat"
 }
