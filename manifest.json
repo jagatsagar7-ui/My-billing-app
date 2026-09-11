@@ -8,5 +8,14 @@
   "short_name": "BillingApp",
   "start_url": "/My-billing-app/",
   "theme_color": "#ffffff",
-  "id": "Jagat"
+  "id": "Jagat",
+    "description": "My personal billing application",
+  "icons": [
+    {
+      "src": "https://www.pwabuilder.com/assets/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+  
 }
