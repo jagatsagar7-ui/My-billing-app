@@ -514,3 +514,27 @@
   </script>
 </body>
 </html>
+    <script>
+        // App khulte hi saved data wapas load karne ke liye
+        window.onload = function() {
+            if(localStorage.getItem("shopName")) {
+                document.getElementById("shopName").value = localStorage.getItem("shopName");
+            }
+            if(localStorage.getItem("ownerName")) {
+                document.getElementById("ownerName").value = localStorage.getItem("ownerName");
+            }
+            if(localStorage.getItem("shopAddress")) {
+                document.getElementById("shopAddress").value = localStorage.getItem("shopAddress");
+            }
+        };
+
+        // Save button dabane par data store karne ke liye
+        function saveDetails() {
+            localStorage.setItem("shopName", document.getElementById("shopName").value);
+            localStorage.setItem("ownerName", document.getElementById("ownerName").value);
+            localStorage.setItem("shopAddress", document.getElementById("shopAddress").value);
+            alert("Details saved successfully!");
+        }
+    </script>
+</body>
+</html>
