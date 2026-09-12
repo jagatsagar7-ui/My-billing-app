@@ -1,6 +1,6 @@
 {
   "background_color": "#ffffff",
-  "dir": "ltr",
+  "dir": "ltr","version": "1.0.1",
   "display": "standalone",
   "name": "My Billing App",
   "orientation": "any",
